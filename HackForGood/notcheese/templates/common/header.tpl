@@ -16,6 +16,7 @@
 
   <!-- Custom CSS -->
   <link href="{$BASE_URL}/css/agency.css" rel="stylesheet">
+  <link href="{$BASE_URL}/css/login.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link href="{$BASE_URL}/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">

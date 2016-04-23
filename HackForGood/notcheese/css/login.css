@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+}
+
+.container.login{
+	margin-top: 0;
+	margin-bottom: 80px;
+	padding: 0;
+	height: 500px !important;
+}
+
+.login-form {
+	margin: 100px auto;
+	max-width: 400px;
+}
+
+.login-form {
+	font: 16px/1.8em Lato, serif;
+	background: #283a44;
+	padding: 30px 26px;
+	color: #fff;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.login-form > img {
+		display: block;
+		margin-bottom: 2em;
+	}
+.login-form .form-control,
+.login-form button {
+		font-size: 18px;
+		margin: 16px 0;
+	}
+		
+.form-links {
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 50px;
+}

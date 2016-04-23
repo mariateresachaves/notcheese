@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2016-04-23 20:14:00
+<?php /* Smarty version Smarty-3.1.15, created on 2016-04-24 00:49:46
          compiled from "C:\xampp\htdocs\HackForGood\notcheese\templates\common\footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2643571bbad24e5626-75023584%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a283d6630cf96c0d57d9ae3e6db4ff944fa88889' => 
     array (
       0 => 'C:\\xampp\\htdocs\\HackForGood\\notcheese\\templates\\common\\footer.tpl',
-      1 => 1461435191,
+      1 => 1461451777,
       2 => 'file',
     ),
   ),

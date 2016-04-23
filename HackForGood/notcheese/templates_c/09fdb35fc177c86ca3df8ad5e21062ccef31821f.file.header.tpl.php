@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2016-04-23 21:53:15
+<?php /* Smarty version Smarty-3.1.15, created on 2016-04-23 22:54:16
          compiled from "C:\xampp\htdocs\HackForGood\notcheese\templates\common\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:10381571bbad23e2bb5-59781850%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '09fdb35fc177c86ca3df8ad5e21062ccef31821f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\HackForGood\\notcheese\\templates\\common\\header.tpl',
-      1 => 1461441194,
+      1 => 1461444829,
       2 => 'file',
     ),
   ),
@@ -44,6 +44,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <!-- Custom CSS -->
   <link href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
 /css/agency.css" rel="stylesheet">
+  <link href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+/css/login.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
