@@ -9,7 +9,9 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand page-scroll" href="#page-top">Na Porta ao Lado</a>
+			<a class="navbar-brand page-scroll" href="{$BASE_URL}pages/main_page.php">Na Porta ao Lado</a>
+			<a class="page-scroll" href="{$BASE_URL}pages/register.php">Registo</a>
+			<a class="page-scroll" href="{$BASE_URL}pages/login.php">Login</a>
 		</div>
 	</div>
 </nav>

@@ -1,17 +1,17 @@
 <?php
-  session_set_cookie_params(3600, '/~lbaw1455'); //FIXME
+  session_set_cookie_params(3600, '/HackForGood/notcheese/'); //FIXME
   session_start();
 
   error_reporting(E_ERROR | E_WARNING); // E_NOTICE by default
 
-  $BASE_DIR = '/c/xampp/htdocs/HackForGood/notcheese'; //FIXME
-  $BASE_URL = '/~lbaw1544/frmk/'; //FIXME
+  $BASE_DIR = 'C:/xampp/htdocs/HackForGood/notcheese/'; //FIXME
+  $BASE_URL = '/HackForGood/notcheese/'; //FIXME
 
-  $conn = new PDO('pgsql:host=dbm.fe.up.pt;dbname=hackforgood'); //FIXME
+  $conn = new PDO('mysql:host=localhost;dbname=hackforgood','root', ''); //FIXME
   $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  $conn->exec('SET SCHEMA \'developing\''); //FIXME
+  //$conn->exec('SET SCHEMA \'developing\''); //FIXME
 
   include_once($BASE_DIR . 'lib/smarty/Smarty.class.php');
   
@@ -30,4 +30,4 @@
   unset($_SESSION['error_messages']);  
   unset($_SESSION['field_errors']);
   unset($_SESSION['form_values']);
-?>
+
