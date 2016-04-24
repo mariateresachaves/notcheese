@@ -1,4 +1,13 @@
 {include file='common/header.tpl'}
+{if $USERNAME}
+	{if $ISELDER}
+		{include file='common/navAuthenticated.tpl'}
+	{else}
+		{include file='common/navStudent.tpl'}
+	{/if}
+{else}
+  {include file='common/navVisitor.tpl'}
+{/if}
 <body id="page-top" class="index">
 
 <!-- Header -->

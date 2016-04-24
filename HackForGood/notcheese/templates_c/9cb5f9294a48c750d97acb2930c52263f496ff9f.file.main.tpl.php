@@ -1,30 +1,44 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2016-04-23 23:05:50
+<?php /* Smarty version Smarty-3.1.15, created on 2016-04-24 08:33:14
          compiled from "C:\xampp\htdocs\notcheese\templates\main.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:158571be3aec37d69-31972195%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:12817571c5370dc4929-65934018%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '9cb5f9294a48c750d97acb2930c52263f496ff9f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\notcheese\\templates\\main.tpl',
-      1 => 1461442624,
+      1 => 1461479587,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '158571be3aec37d69-31972195',
+  'nocache_hash' => '12817571c5370dc4929-65934018',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_571c5370f00a56_93115690',
   'variables' => 
   array (
+    'USERNAME' => 0,
+    'ISELDER' => 0,
     'BASE_URL' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_571be3aed2ba46_35731867',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_571be3aed2ba46_35731867')) {function content_571be3aed2ba46_35731867($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('common/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_571c5370f00a56_93115690')) {function content_571c5370f00a56_93115690($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('common/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
+<?php if ($_smarty_tpl->tpl_vars['USERNAME']->value) {?>
+	<?php if ($_smarty_tpl->tpl_vars['ISELDER']->value) {?>
+		<?php echo $_smarty_tpl->getSubTemplate ('common/navAuthenticated.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+	<?php } else { ?>
+		<?php echo $_smarty_tpl->getSubTemplate ('common/navStudent.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+	<?php }?>
+<?php } else { ?>
+  <?php echo $_smarty_tpl->getSubTemplate ('common/navVisitor.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+<?php }?>
 <body id="page-top" class="index">
 
 <!-- Header -->

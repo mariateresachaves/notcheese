@@ -1,29 +1,29 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2016-04-23 22:03:41
-         compiled from "C:\xampp\htdocs\HackForGood\notcheese\templates\common\navVisitor.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:12682571bbd26162021-85231826%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.15, created on 2016-04-24 08:34:28
+         compiled from "C:\xampp\htdocs\notcheese\templates\common\navStudent.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:14538571c68aa6d6540-27379566%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '46ca8a817e4a03396b2cf5a816c81009d3087dca' => 
+    '8855ec1be588e2c5d9f10105f1de498c3f64cfd1' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\HackForGood\\notcheese\\templates\\common\\navVisitor.tpl',
-      1 => 1461441811,
+      0 => 'C:\\xampp\\htdocs\\notcheese\\templates\\common\\navStudent.tpl',
+      1 => 1461479666,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12682571bbd26162021-85231826',
+  'nocache_hash' => '14538571c68aa6d6540-27379566',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_571bbd26164583_35682553',
+  'unifunc' => 'content_571c68aa6f0157_01581111',
   'variables' => 
   array (
     'BASE_URL' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_571bbd26164583_35682553')) {function content_571bbd26164583_35682553($_smarty_tpl) {?><!-- Navigation -->
+<?php if ($_valid && !is_callable('content_571c68aa6f0157_01581111')) {function content_571c68aa6f0157_01581111($_smarty_tpl) {?><!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
@@ -37,9 +37,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<a class="navbar-brand page-scroll" href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
 pages/main_page.php">Na Porta ao Lado</a>
 			<a class="page-scroll" href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
-pages/register.php">Registo</a>
+pages/userProfile.php">Perfil</a>
 			<a class="page-scroll" href="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
-pages/login.php">Login</a>
+actions/users/logout.php">Logout</a>
 		</div>
 	</div>
 </nav>

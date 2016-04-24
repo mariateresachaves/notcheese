@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2016-04-24 00:48:48
-         compiled from "C:\xampp\htdocs\HackForGood\notcheese\templates\login.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:22134571bde6ac27b98-95204051%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.15, created on 2016-04-24 07:26:29
+         compiled from "C:\xampp\htdocs\notcheese\templates\login.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1917571c590538dbc2-88329804%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '12a0520a19872b09bc0f3a0ad3e4db9b358c09ca' => 
+    'c0cb4bb8eb7d191852cc4bd9a34f3b916caad979' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\HackForGood\\notcheese\\templates\\login.tpl',
-      1 => 1461451719,
+      0 => 'C:\\xampp\\htdocs\\notcheese\\templates\\login.tpl',
+      1 => 1461463410,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '22134571bde6ac27b98-95204051',
+  'nocache_hash' => '1917571c590538dbc2-88329804',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.15',
-  'unifunc' => 'content_571bde6ac443b0_25617698',
   'variables' => 
   array (
     'BASE_URL' => 0,
@@ -24,8 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ERROR_MESSAGES' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_571c59054360e3_00801564',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_571bde6ac443b0_25617698')) {function content_571bde6ac443b0_25617698($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('common/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_571c59054360e3_00801564')) {function content_571c59054360e3_00801564($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('common/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <body id="page-top" class="index">
 <section class="container login">
