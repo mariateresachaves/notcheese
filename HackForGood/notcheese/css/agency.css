@@ -12,7 +12,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75
 }
 
@@ -55,11 +55,8 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7
-}
-
-.bg-darkest-gray {
-    background-color: #222
+    background-color: #f7f7f7;
+    padding-top: 40px;
 }
 
 .btn-primary {
@@ -164,8 +161,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default {
-    background-color: #222;
-    border-color: transparent
+    background-color: #fff;
+    border-color: transparent;
+
 }
 
 .navbar-default .navbar-brand {
@@ -203,7 +201,44 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff
+    color: #fff;
+}
+
+div.navbar-right{
+    float: right !important;
+    line-height: 70px
+}
+
+div.navbar-right > a > i{
+    vertical-align: sub;
+}
+
+div.button.header{
+    display: inline-block;
+}
+
+a.navbar-brand {
+    line-height: 70px;
+    height: 70px;
+    width: 80px;
+    text-align: center;
+    padding: 0;
+    display: inline-flex;
+}
+
+a.navbar-brand > img{
+    margin: auto;
+    display: inline-block;
+}
+
+div.navbar-name{
+    display: inline-flex;
+}
+
+div.navbar-name > h3{
+    margin-top: 30px;
+    display: inline-table;
+    padding-left: 0.3em
 }
 
 .navbar-default .nav li a:hover,
@@ -226,8 +261,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media (min-width:768px) {
     .navbar-default {
-        background-color: transparent;
-        padding: 25px 0;
+        padding: 5px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -252,7 +286,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/banner.jpg);
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -261,7 +295,8 @@ header {
     background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    color: #fff
+    color: #fff;
+    margin-top: 70px
 }
 
 header .intro-text {
@@ -743,6 +778,29 @@ ul.social-buttons li a:active {
     outline: 0
 }
 
+
+.btn.register-btn{
+    font-size: 18px;
+    color: #fff;
+    background-color: #1589C1;
+}
+
+.btn.login-btn{
+    font-size: 18px;
+    color: #fff;
+    background-color: #059B2C;
+    margin-left: 5px;
+}
+
+.btn.play-btn{
+     background-color: red;
+     color: #fff;
+}
+
+.btn.play-btn > i{
+    margin: 0 !important;
+    color: #fff;
+}
 .portfolio-modal .modal-content {
     border-radius: 0;
     background-clip: border-box;
@@ -839,4 +897,48 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136
+}
+
+
+.yellow-logo{
+    color: #ffd500;
+}
+
+.grey-logo{
+    color: #999999;
+}
+
+.black-color{
+    color: #000;
+}
+
+i.material-icons{
+    margin-right: 5px;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+#portfolio > div > div:nth-child(1) > div.col-md-10{
+
+    padding-left: 0;
+}
+
+#day-topic{
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+    height: 180px;
+
+}
+
+#portfolio > div > div:nth-child(1) > div.col-md-2.portfolio-item.day_topic{
+    padding-right: 0;
+}
+
+#day-topic > p{
+    font-style: italic;
 }

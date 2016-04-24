@@ -1,13 +1,13 @@
 <?php
-  session_set_cookie_params(3600, '/notcheese/'); //FIXME
+  session_set_cookie_params(3600, '/HackForGood/notcheese/'); //FIXME
   session_start();
 
   error_reporting(E_ERROR | E_WARNING); // E_NOTICE by default
 
-  $BASE_DIR = 'C:/xampp/htdocs/notcheese/'; //FIXME
-  $BASE_URL = '/notcheese/'; //FIXME
+  $BASE_DIR = 'C:/xampp/htdocs/HackForGood/notcheese/'; //FIXME
+  $BASE_URL = '/HackForGood/notcheese/'; //FIXME
 
-  $conn = new PDO('mysql:host=172.17.108.162;dbname=hackforgood','teresa', '1234'); //FIXME
+  $conn = new PDO('mysql:host=localhost;dbname=hackforgood','root', ''); //FIXME
   $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
